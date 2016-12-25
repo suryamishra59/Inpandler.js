@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="fonts/allura-font.css">
+<link rel="stylesheet" href="fonts/jura-font.css">
+<link rel="stylesheet" href="fonts/open-sans-font.css">
+<link rel="stylesheet" href="css/inpandler-themes/inpandler-blue.css"
+	title="my-ip-theme" />
+<link rel="stylesheet" href="css/index.css">
+<noscript>
+	<meta HTTP-EQUIV="REFRESH" content="0; url=noscript.html">
+</noscript>
+<script src="js/jquery-1.11.3.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/inpandler.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<title>Inpandler</title>
+</head>
+<body>
+	<div class="se-pre-con">
+		<label>PLEASE WAIT</label>
+	</div>
+	<div class="container-fluid nav-bar">
+		<div class="row">
+			<div class="col-sm-5">
+				<a href="index.html"><span id="logo">Inpandler</span></a>
+			</div>
+			<a href="#about-jumbo"><div class="col-sm-2">
+					<label class="nav-label">About</label>
+				</div></a> <a href="#content-wrapper"><div class="col-sm-2">
+					<label class="nav-label">Examples</label>
+				</div></a> <a href="#docs"><div class="col-sm-2">
+					<label class="nav-label">Docs</label>
+				</div></a>
+			<div class="col-sm-1"></div>
+		</div>
+	</div>
+
+	<div id="header">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Inpandler - Your Input Handler</h1>
+			</div>
+			<div class="col-sm-12">
+				<a id="get-started" href="#about-jumbo"><input type="button"
+					value="Get Started" class="ip-button"></a>
+				<a href="inpandler.js.rar"><input type="button"
+					value="Download" class="ip-button"></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="about-jumbo">
+		<div class="jumbotron">
+			<div class="row" style="margin: 0">
+				<div class="col-sm-12">
+					<h1>What's it all about?</h1>
+				</div>
+			</div>
+			<div class="row" style="margin: 0">
+				<div class="col-sm-12">
+					<p style="padding-left: 2em; padding-right: 2em">
+						Admit it, everyone hates to use those old and boring HTML input
+						elements as it is. So, I'm bringing you guys a short stylesheet
+						and a script file that fills all your input tags with an elegant
+						design. I've kept the documentation as easy as possible for the
+						noobs. If any problem persists, go to my project at Github(link at
+						the bottom) and report me their. Or you can drop me an email(link
+						at the bottom) too.<br> I hope you'd love it!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="content-wrapper">
+		<div class="container" style="background: white">
+			<div class="row">
+				<div class="col-sm-12 theme-container" align="center">
+					<div class="ip-container-select theme">
+						<select class="ip-select" label="Select">
+							<option class="ip-select-option" value="red">Red</option>
+							<option class="ip-select-option" value="green">Green</option>
+							<option class="ip-select-option" value="blue">Blue</option>
+							<option class="ip-select-option" value="black">Black</option>
+							<option class="ip-select-option" value="cyan">Cyan</option>
+							<option class="ip-select-option" value="yellow">Yellow</option>
+							<option class="ip-select-option" value="magenta">Magenta</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 elements-wrapper">
+					<div class="inner-overlay" style="padding-left: 3.89em;">
+						<div class="ip-container-text">
+							<input type="text" class="ip-text" label="Username"
+								value="Lorem Ipsum" placeholder="SSS">
+						</div>
+						<br> <br>
+						<div class="ip-container-text">
+							<input type="password" class="ip-text" label="Password">
+						</div>
+					</div>
+					<div class="overlay" id="over-1">
+						<label>Text Fields</label>
+					</div>
+				</div>
+				<div class="col-sm-6 elements-wrapper">
+					<div class="inner-overlay" style="padding-left: 3.89em;">
+						<div class="row" style="text-align: center;">
+							<div class="ip-container-check">
+								<input type="checkbox" class="ip-check" true-label="Present"
+									false-label="Absent">
+							</div>
+						</div>
+					</div>
+					<div class="overlay" id="over-2">
+						<label>Checkboxes</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 elements-wrapper">
+					<div class="inner-overlay">
+						<div class="row">
+							<div class="ip-container-radio" style="margin-left: 1.1em">
+								<input type="radio" class="ip-radio" name="gender" label="Male">
+								<input type="radio" class="ip-radio" name="gender"
+									label="Female"> <input type="radio" class="ip-radio"
+									name="gender" label="Others">
+							</div>
+						</div>
+					</div>
+					<div class="overlay" id="over-3">
+						<label>Radio Buttons</label>
+					</div>
+				</div>
+				<div class="col-sm-6 elements-wrapper">
+					<div class="inner-overlay">
+						<div class="row">
+							<div class="col-sm-4">
+								<input type="button" value="Button" class="ip-button"
+									style="height: 4em; font-weight: bold">
+							</div>
+							<div class="col-sm-4">
+								<div class="ip-container-file">
+									<input type="file" class="ip-file" label='Multiple Files'
+										multiple="multiple">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="ip-container-file">
+									<input type="file" class="ip-file" label='Single File'>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="overlay" id="over-4">
+						<label>Buttons And Files</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 elements-wrapper">
+					<div class="inner-overlay">
+						<textarea class="ip-textarea" placeholder="Try Something..."></textarea>
+					</div>
+					<div class="overlay" id="over-5">
+						<label>Text Areas</label>
+					</div>
+				</div>
+				<div class="col-sm-6 elements-wrapper">
+					<div class="inner-overlay">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="ip-container-select">
+									<select class="ip-select" label="Gender">
+										<option>Male</option>
+										<option>Female</option>
+										<option>Others</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="ip-container-select">
+									<select class="ip-select" label="Select">
+										<option>Option 1</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="overlay" id="over-6">
+						<label>Drop-down Lists</label>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 theme-container"
+					style="border-top: 1px solid white; border-bottom: none;"
+					align="center">
+					<div class="ip-container-select theme">
+						<select class="ip-select" label="Select">
+							<option class="ip-select-option" value="red">Red</option>
+							<option class="ip-select-option" value="green">Green</option>
+							<option class="ip-select-option" value="blue">Blue</option>
+							<option class="ip-select-option" value="black">Black</option>
+							<option class="ip-select-option" value="cyan">Cyan</option>
+							<option class="ip-select-option" value="yellow">Yellow</option>
+							<option class="ip-select-option" value="magenta">Magenta</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Docs  -->
+
+	<div class="container-fluid" id="docs" style="padding: 0;">
+		<div class="container">
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#documentation">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Installation<img class="my-glyphicon" src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="documentation">
+				<div class="col-sm-12">
+					<p class="docs-para">Copy and paste the following two lines of
+						code to your html/jsp/aspx file. Preferably, place it between your
+						head tags. You can use different pre-built basic stylesheets for
+						different themes.</p>
+					<h3>Make Your Own Theme:</h3>
+					<br>
+					<p class="docs-para">
+						Assuming that you'd be knowing basic text-editing, do the follow
+						single step for making your own color theme. Find and replace the
+						old color with the new valid color of your choice in the
+						stylesheet. You can use <a
+							href="https://www.google.co.in/search?q=color+picker"
+							style="color: blue">color picker</a> to select a valid color
+						either in rgb or hexadecimal format.
+					</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code>
+							&ltlink rel="stylesheet" href="css/inpandler.css" &gt <br>
+							&ltscript type="text/javascript"
+							src="js/inpandler.js"&gt&lt/script&gt<br> &ltscript
+							src="js/jquery-1.11.3.js"&gt&lt/script&gt
+						</code>
+					</div>
+				</div>
+			</div>
+			<!-- Text-fields  -->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#tfields">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Text Fields<img class="my-glyphicon" src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="tfields">
+				<div class="col-sm-12">
+					<p class="docs-para">To use a text or a password field, do it
+						as you do. Just wrap it inside a div container. Add the classes as
+						shown in the code. You can a label attribute to act as a
+						placeholder</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code>
+							&ltdiv class="ip-container-text"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="text"
+							class="ip-text" label="Username"&gt<br> &lt/div&gt
+						</code>
+					</div>
+				</div>
+			</div>
+			<!-- Checkboxes  -->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#checks">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Checkboxes<img class="my-glyphicon" src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="checks">
+				<div class="col-sm-12">
+					<p class="docs-para">
+						Same as you did to text-fields, wrap the checkboxes in a div with
+						required classes as shown. You can use two attributes for checked
+						and unchecked values-<br>1. true-label: Checked Label<br>2.
+						false-label: Unchecked Label<br>Note that, the keyboard
+						shortcuts for this element would not work.
+					</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code>
+							&ltdiv <span class="imp-code">class="ip-container-check"</span>&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="checkbox"
+							class="ip-check" true-label="Present" false-label="Absent"&gt<br>
+							&lt/div&gt
+						</code>
+					</div>
+				</div>
+			</div>
+			<!-- Radio Buttons  -->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#radios">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Radio buttons<img class="my-glyphicon"
+							src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="radios">
+				<div class="col-sm-12">
+					<p class="docs-para">
+						Those old original ones are so boring, isn't it. Follow the rule
+						of wrapping in this as well. If you want to increase the size of
+						the button, increase the font-size of the wrapper. Add the label
+						attribute to add a label floating to side of the button.<br>
+						Add the 'inline' class to bring them side to side.
+					</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code>
+							&ltdiv class="ip-container-radio"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="radio"
+							class="ip-radio" name="gender" label="Male"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltbr&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="radio"
+							class="ip-radio" name="gender" label="Female"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltbr&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="radio"
+							class="ip-radio" name="gender" label="Others"&gt<br>
+							&lt/div&gt<br> <br> &ltdiv class="ip-container-radio <b>inline</b>"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="radio"
+							class="ip-radio" name="city" label="Los Angeles"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="radio"
+							class="ip-radio" name="city" label="Mumbai"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="radio"
+							class="ip-radio" name="city" label="Silicon Valley"&gt<br>
+							&lt/div&gt
+						</code>
+					</div>
+				</div>
+			</div>
+			<!-- Buttons  -->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#btns">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Buttons<img class="my-glyphicon" src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="btns">
+				<div class="col-sm-12">
+					<p class="docs-para">The most simple one and my favourite, is
+						the button. Just add the 'ip-button' class to your input tag.
+						That's it!</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code> &ltinput type="button" value="Button"
+							class="ip-button"&gt </code>
+					</div>
+				</div>
+			</div>
+			<!-- File Upload Buttons  -->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#fBtns">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						File Upload Buttons<img class="my-glyphicon"
+							src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="fBtns">
+				<div class="col-sm-12">
+					<p class="docs-para">Get rid of the classic old file upload
+						buttons! As earlier described, wrap it under a div with required
+						class. Use it as single or multiple file upload button. At last
+						add the label attribute to be displayed on button</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code>
+							&ltdiv class="ip-container-file&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="file"
+							class="ip-file" label='Multiple Files' <b>multiple="multiple"</b>&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltinput type="file"
+							class="ip-file" label='Single File'&gt<br> &lt/div>
+						</code>
+					</div>
+				</div>
+			</div>
+			<!-- Select Tag-->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#selects">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Select/Drop-down Lists<img class="my-glyphicon"
+							src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="selects">
+				<div class="col-sm-12">
+					<p class="docs-para">Again, follow the wrapping rule. Insert
+						your select tag into it and rest is done. Add the label attribute
+						with required value.</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code>
+							&ltdiv class="ip-container-select"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltselect class="ip-select"
+							label="Select"&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltoption>Option
+							1&lt/option&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltoption>Option
+							2&lt/option&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ltoption>Option
+							3&lt/option&gt<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt/select&gt<br> &lt/div&gt
+						</code>
+					</div>
+				</div>
+			</div>
+			<!-- Textarea-->
+
+			<div class="row" style="margin-top: 2em" data-toggle="collapse"
+				data-target="#areas">
+				<div class="col-sm-12">
+					<h2 class="docs-heading">
+						Textarea<img class="my-glyphicon" src=images/align-justify.png></img>
+					</h2>
+				</div>
+			</div>
+			<div class="row collapse" id="areas">
+				<div class="col-sm-12">
+					<p class="docs-para">Again one of the simple tag without the
+						need of any wrapping. Do it as follows</p>
+				</div>
+				<div class="col-sm-12">
+					<div class="doc-code-container">
+						<code> &lttextarea class="ip-textarea" rows="5" cols="40"
+							placeholder="Try Something..."&gt&lt/textarea&gt </code>
+					</div>
+				</div>
+			</div>
+			<br> <br>
+		</div>
+	</div>
+
+	<div class="about-me">
+		<div id="overlay-about"></div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div data-toggle="tooltip" title="Go To Top" class="go-on-top"
+					id="on-top-left"></div>
+				<div data-toggle="tooltip" title="Go To Top" class="go-on-top"
+					id="on-top-right"></div>
+				<h2>Designed By</h2>
+				<h1 id="my-name">| Surya Deep Mishra |</h1>
+				<h2>Available for freelancing Web Designing</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer">
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-3">
+				<a href="//facebook.com/suyamishra"><div class="contact-icon"
+						data-toggle="tooltip" id="fb-icon" title="I'm on Facebook"></div></a>
+			</div>
+			<div class="col-sm-3">
+				<a href=""><div class="contact-icon" data-toggle="tooltip"
+						id="gh-icon" title="I'm on Github"></div></a>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-4" style="padding-top: 1em">
+				<label class="footer-lbls" id="f-mobno">+917747983422</label>
+			</div>
+			<div class="col-sm-4"
+				style="border-top: 1px solid #f30; padding-top: 1em"></div>
+			<div class="col-sm-4" style="padding-top: 1em">
+				<label class="footer-lbls" id="f-email">suryamishra59@gmail.com</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+/**
+ * @author: Surya Deep Mishra
+ */
+@CHARSET "ISO-8859-1";
+
+div.ip-container {
+	position: relative;
+}
+
+div.ip-container-text {
+	min-width: 10em;
+	width: 20%;
+	height: 1.8em;
+}
+
+span.ip-text-label {
+	color: #737373;
+	font-family: 'Verdana';
+	font-size: 1em;
+	position: absolute;
+	z-index: 1;
+	bottom: 21.486%;
+	transition: all 0.3s ease-in-out;
+}
+
+.ip-text {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border: 1px solid transparent;
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 0.5em;
+	font-family: 'Verdana';
+	font-size: 1em;
+	transition: border-bottom 0.5s ease-out;
+}
+
+.ip-text:HOVER, .ip-text:FOCUS {
+	border-bottom: 1px solid #ff0000;
+}
+
+.on-focus-label {
+	bottom: 105% !important;
+	color: #ff0000 !important;
+}
+
+/* Stylng checkbox */
+div.ip-container-check {
+	display: inline-block;
+	padding: 0.2em 0.6em 0.2em 0.6em;
+	cursor: pointer;
+	min-height: 1.6em;
+	min-width: 1em;
+	border: 1px solid #ff0000;
+	overflow: hidden;
+	transition: box-shadow 0.3s;
+}
+
+.ip-check {
+	cursor: pointer;
+	opacity: 0;
+	width: 0;
+	margin: 0;
+	height: 0;
+}
+
+div.cover-up-check {
+	/* border-radius: 3px; */
+	height: 100%;
+	position: absolute;
+	float: left;
+	top: 0;
+	cursor: pointer;
+	transition: background 0.6s;
+}
+
+.cover-up-checked {
+	background-color: #ff0000;
+}
+
+.cover-up-unchecked {
+	background-color: #737373;
+}
+
+.tSpanContainer {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.fSpanContainer {
+	float: right;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.true-value{
+	font-family: 'Verdana';
+	font-size: 1em;
+}
+
+.false-value {
+	font-family: 'Verdana';
+	font-size: 1em;
+}
+
+/* STylng Radio Buttons */
+.ip-container-radio {
+	min-width: 10em;
+	width: 15%;
+}
+
+.inline .radio-p-container {
+	float: left;
+	margin-left: 1em;
+}
+
+.ip-radio {
+	opacity: 0;
+	z-index: -10;
+	width: 0;
+	height: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.ip-radio-focus, .ip-check-focus {
+	box-shadow: 0px 0px 8px 2px #ff0000;
+}
+
+.radio-container {
+	height: 1.2em;
+	width: 1.2em;
+	border: 1px solid #ff0000;
+	float: left;
+	cursor: pointer;
+	z-index: 5;
+	transition: all 0.2s ease-in;
+}
+
+.radio-selected {
+	background-color: #ff0000 !important;
+	border-radius: 50% !important;
+}
+
+.radio-unselected {
+	background-color: 'transparent';
+	border-radius: '0%';
+}
+
+.radio-labels {
+	margin-left: 1em;
+	font-family: 'Verdana';
+	font-size: 1em;
+}
+
+/* Styling Button*/
+.ip-button {
+	padding: 0.7em 1em 0.7em 1em;
+	background-color: transparent;
+	cursor: pointer;
+	border: 1px solid #ff0000;
+	text-align: center;
+	outline: none;
+	font-family: 'Verdana';
+	font-size: 1em;
+	width: 10em;
+	height: 3em;
+	transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
+}
+
+.ip-button:HOVER {
+	background-color: #ff0000;
+	box-shadow: 0px 0px 8px 2px #ff0000;
+	color: white;
+}
+
+.ip-button:FOCUS, .ip-button:ACTIVE {
+	box-shadow: 0px 0px 8px 2px #ff0000;
+}
+
+/* Styling input file*/
+.ip-container-file {
+	position: relative;
+	display: table;
+	vertical-align: middle;
+	overflow: hidden;
+	height: 2.5em;
+	font-family: 'Verdana';
+	font-size: 1em;
+	border: 1px solid #ff0000;
+	cursor: pointer;
+	transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
+}
+
+.ip-container-file * {
+	cursor: pointer;
+}
+
+.ip-container-file:HOVER {
+	background-color: #ff0000;
+	box-shadow: 0px 0px 8px 2px #ff0000;
+	color: white;
+}
+
+.ip-file {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	z-index: 2;
+	opacity: 0;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.ip-file-focus {
+	box-shadow: 0px 0px 8px 2px #ff0000;
+}
+
+.ip-container-file label {
+	height: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ip-file:HOVER {
+	background-color: #ff0000;
+	box-shadow: 0px 0px 8px 2px #ff0000;
+	color: white;
+}
+
+/* Styling select input*/
+.ip-container-select {
+	width: 6.5em;
+	height: 2.5em;
+	position: relative;
+	background-color: transparent;
+	border-bottom: 1px solid #ff0000;
+	transition: color 0.3s, box-shadow 0.3s;
+}
+
+span.ip-select-label {
+	color: #737373;
+	font-family: 'Verdana';
+	font-size: 1em;
+	position: absolute;
+	margin-left: 5px;
+	z-index: 1;
+	bottom: 30.486%;
+	/* 	bottom: 21.486%; */
+	transition: all 0.3s ease-in-out;
+}
+
+.ip-select-label-focus {
+	bottom: 110% !important;
+	color: #ff0000 !important;
+}
+
+.ip-container-select:HOVER, .ip-container-select:ACTIVE,
+	.ip-container-select:FOCUS {
+	box-shadow: 0px 0px 8px 2px #ff0000;
+}
+
+.ip-select {
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	position: absolute;
+	background-color: transparent;
+	font-family: 'Verdana';
+	font-size: 1em;
+	padding-left: 3px;
+}
+
+.ip-select:FOCUS {
+	box-shadow: 0px 0px 8px 2px #ff0000;
+}
+
+/* Styling Textarea*/
+.ip-textarea {
+	border: none;
+	border-bottom: 1px solid #ff0000;
+	border-top: 1px solid #ff0000;
+	outline: none;
+	padding: 1em;
+	font-family: 'Consolas';
+	font-size: 1em;
+	word-spacing: -4px;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.ip-textarea:ACTIVE, .ip-textarea:FOCUS, .ip-textarea:HOVER {
+	box-shadow: 0px 0px 8px 2px #ff0000;
+}
