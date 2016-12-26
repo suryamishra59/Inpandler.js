@@ -452,14 +452,14 @@ div[data-toggle="collapse"]:HOVER {
 	background: #2d2d2d;
 }
 
-@supports (-ms-ime-align:auto ) {
+/*@supports (-ms-ime-align:auto ) {
 	#header {
 		background-attachment:local!important;
 	}
 	.about-me {
 		background-attachment:local!important;
 	}
-}
+}*/
 
 @media ( max-width : 768px) {
 	.overlay {
