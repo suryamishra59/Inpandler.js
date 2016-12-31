@@ -21,6 +21,7 @@ span.ip-text-label {
 	z-index: 1;
 	bottom: 21.486%;
 	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 .ip-text {
@@ -35,6 +36,7 @@ span.ip-text-label {
 	font-family: 'Verdana';
 	font-size: 1em;
 	transition: border-bottom 0.5s ease-out;
+	-webkit-transition: border-bottom 0.5s ease-out;
 }
 
 .ip-text:HOVER, .ip-text:FOCUS {
@@ -56,6 +58,7 @@ div.ip-container-check {
 	border: 1px solid #f30;
 	overflow: hidden;
 	transition: box-shadow 0.3s;
+	-webkit-transition: box-shadow 0.3s;
 }
 
 .ip-check {
@@ -74,6 +77,7 @@ div.cover-up-check {
 	top: 0;
 	cursor: pointer;
 	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
 }
 
 .cover-up-checked {
@@ -140,6 +144,7 @@ div.cover-up-check {
 	cursor: pointer;
 	z-index: 5;
 	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
 }
 
 .radio-selected {
@@ -171,6 +176,7 @@ div.cover-up-check {
 	width: 10em;
 	height: 3em;
 	transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
+	-webkit-transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
 }
 
 .ip-button:HOVER {
@@ -195,6 +201,7 @@ div.cover-up-check {
 	border: 1px solid #f30;
 	cursor: pointer;
 	transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
+	-webkit-transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
 }
 
 .ip-container-file * {
@@ -219,6 +226,7 @@ div.cover-up-check {
 	z-index: 2;
 	opacity: 0;
 	transition: box-shadow 0.3s ease-in-out;
+	-webkit-transition: box-shadow 0.3s ease-in-out;
 }
 
 .ip-file-focus {
@@ -248,6 +256,7 @@ div.cover-up-check {
 	background-color: transparent;
 	border-bottom: 1px solid #f30;
 	transition: color 0.3s, box-shadow 0.3s;
+	-webkit-transition: color 0.3s, box-shadow 0.3s;
 }
 
 span.ip-select-label {
@@ -260,6 +269,7 @@ span.ip-select-label {
 	bottom: 30.486%;
 	/* 	bottom: 21.486%; */
 	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 .ip-select-label-focus {
@@ -299,6 +309,7 @@ span.ip-select-label {
 	font-size: 1em;
 	word-spacing: -4px;
 	transition: box-shadow 0.3s ease-in-out;
+	-webkit-transition: box-shadow 0.3s ease-in-out;
 }
 
 .ip-textarea:ACTIVE, .ip-textarea:FOCUS, .ip-textarea:HOVER {

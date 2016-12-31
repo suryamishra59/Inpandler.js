@@ -21,6 +21,7 @@ span.ip-text-label {
 	z-index: 1;
 	bottom: 21.486%;
 	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 .ip-text {
@@ -35,15 +36,16 @@ span.ip-text-label {
 	font-family: 'Verdana';
 	font-size: 1em;
 	transition: border-bottom 0.5s ease-out;
+	-webkit-transition: border-bottom 0.5s ease-out;
 }
 
 .ip-text:HOVER, .ip-text:FOCUS {
-	border-bottom: 1px solid #0000ff;
+	border-bottom: 1px solid blue;
 }
 
 .on-focus-label {
 	bottom: 105% !important;
-	color: #0000ff !important;
+	color: blue !important;
 }
 
 /* Stylng checkbox */
@@ -53,9 +55,10 @@ div.ip-container-check {
 	cursor: pointer;
 	min-height: 1.6em;
 	min-width: 1em;
-	border: 1px solid #0000ff;
+	border: 1px solid blue;
 	overflow: hidden;
 	transition: box-shadow 0.3s;
+	-webkit-transition: box-shadow 0.3s;
 }
 
 .ip-check {
@@ -74,10 +77,11 @@ div.cover-up-check {
 	top: 0;
 	cursor: pointer;
 	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
 }
 
 .cover-up-checked {
-	background-color: #0000ff;
+	background-color: blue;
 }
 
 .cover-up-unchecked {
@@ -129,21 +133,22 @@ div.cover-up-check {
 }
 
 .ip-radio-focus, .ip-check-focus {
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	box-shadow: 0px 0px 8px 2px blue;
 }
 
 .radio-container {
 	height: 1.2em;
 	width: 1.2em;
-	border: 1px solid #0000ff;
+	border: 1px solid blue;
 	float: left;
 	cursor: pointer;
 	z-index: 5;
 	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
 }
 
 .radio-selected {
-	background-color: #0000ff !important;
+	background-color: blue !important;
 	border-radius: 50% !important;
 }
 
@@ -163,7 +168,7 @@ div.cover-up-check {
 	padding: 0.7em 1em 0.7em 1em;
 	background-color: transparent;
 	cursor: pointer;
-	border: 1px solid #0000ff;
+	border: 1px solid blue;
 	text-align: center;
 	outline: none;
 	font-family: 'Verdana';
@@ -171,16 +176,17 @@ div.cover-up-check {
 	width: 10em;
 	height: 3em;
 	transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
+	-webkit-transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
 }
 
 .ip-button:HOVER {
-	background-color: #0000ff;
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	background-color: blue;
+	box-shadow: 0px 0px 8px 2px blue;
 	color: white;
 }
 
 .ip-button:FOCUS, .ip-button:ACTIVE {
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	box-shadow: 0px 0px 8px 2px blue;
 }
 
 /* Styling input file*/
@@ -192,9 +198,10 @@ div.cover-up-check {
 	height: 2.5em;
 	font-family: 'Verdana';
 	font-size: 1em;
-	border: 1px solid #0000ff;
+	border: 1px solid blue;
 	cursor: pointer;
 	transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
+	-webkit-transition: background 0.3s ease-in-out, color 0.3s, box-shadow 0.3s;
 }
 
 .ip-container-file * {
@@ -202,8 +209,8 @@ div.cover-up-check {
 }
 
 .ip-container-file:HOVER {
-	background-color: #0000ff;
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	background-color: blue;
+	box-shadow: 0px 0px 8px 2px blue;
 	color: white;
 }
 
@@ -219,10 +226,11 @@ div.cover-up-check {
 	z-index: 2;
 	opacity: 0;
 	transition: box-shadow 0.3s ease-in-out;
+	-webkit-transition: box-shadow 0.3s ease-in-out;
 }
 
 .ip-file-focus {
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	box-shadow: 0px 0px 8px 2px blue;
 }
 
 .ip-container-file label {
@@ -235,8 +243,8 @@ div.cover-up-check {
 }
 
 .ip-file:HOVER {
-	background-color: #0000ff;
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	background-color: blue;
+	box-shadow: 0px 0px 8px 2px blue;
 	color: white;
 }
 
@@ -246,8 +254,9 @@ div.cover-up-check {
 	height: 2.5em;
 	position: relative;
 	background-color: transparent;
-	border-bottom: 1px solid #0000ff;
+	border-bottom: 1px solid blue;
 	transition: color 0.3s, box-shadow 0.3s;
+	-webkit-transition: color 0.3s, box-shadow 0.3s;
 }
 
 span.ip-select-label {
@@ -260,16 +269,17 @@ span.ip-select-label {
 	bottom: 30.486%;
 	/* 	bottom: 21.486%; */
 	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 }
 
 .ip-select-label-focus {
 	bottom: 110% !important;
-	color: #0000ff !important;
+	color: blue !important;
 }
 
 .ip-container-select:HOVER, .ip-container-select:ACTIVE,
 	.ip-container-select:FOCUS {
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	box-shadow: 0px 0px 8px 2px blue;
 }
 
 .ip-select {
@@ -285,22 +295,23 @@ span.ip-select-label {
 }
 
 .ip-select:FOCUS {
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	box-shadow: 0px 0px 8px 2px blue;
 }
 
 /* Styling Textarea*/
 .ip-textarea {
 	border: none;
-	border-bottom: 1px solid #0000ff;
-	border-top: 1px solid #0000ff;
+	border-bottom: 1px solid blue;
+	border-top: 1px solid blue;
 	outline: none;
 	padding: 1em;
 	font-family: 'Consolas';
 	font-size: 1em;
 	word-spacing: -4px;
 	transition: box-shadow 0.3s ease-in-out;
+	-webkit-transition: box-shadow 0.3s ease-in-out;
 }
 
 .ip-textarea:ACTIVE, .ip-textarea:FOCUS, .ip-textarea:HOVER {
-	box-shadow: 0px 0px 8px 2px #0000ff;
+	box-shadow: 0px 0px 8px 2px blue;
 }
